@@ -19,9 +19,4 @@ void draw() {
   SnakeArray[i] = new Snake();
   SnakeArray[i].display(random(0,255),random(0,255),random(0,255));
   }
- /*
-  for (int i = 0; i<SnakeArray.length; i++) {
-  SnakeArray[i].display(random(0,255),random(0,255),random(0,255));
-  }
-*/
 }
